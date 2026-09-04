@@ -113,9 +113,14 @@ function Index() {
       <main id="topo" className="mx-auto max-w-4xl px-5">
         <section className="pt-16 pb-20 text-center sm:pt-24">
           <img
+            src={portrait.url}
+            alt="Gleyton Rosa"
+            className="mx-auto size-28 rounded-full object-cover ring-1 ring-border sm:size-32"
+          />
+          <img
             src={monogram.url}
             alt="Marca GR — Gleyton Rosa"
-            className="mx-auto w-32 object-contain sm:w-44"
+            className="mx-auto mt-6 w-20 object-contain opacity-70 sm:w-24"
           />
           <h1 className="mt-6 font-display text-4xl font-light leading-tight tracking-wide sm:text-6xl">
             <span className="text-foreground">GLEYTON </span>
