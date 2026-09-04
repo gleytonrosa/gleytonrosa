@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Mail, Phone, Instagram, Facebook, Linkedin, MapPin } from "lucide-react";
 
 import monogram from "@/assets/gr-monogram.png.asset.json";
+import portrait from "@/assets/gleyton-portrait.png.asset.json";
 
 const TITLE = "Gleyton Rosa — Executivo de Negócios e Estratégia Comercial";
 const DESCRIPTION =
