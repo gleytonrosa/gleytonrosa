@@ -164,7 +164,7 @@ function Index() {
                 e processo claro.
               </p>
               <p className="mt-4 max-w-[56ch] text-[15px] leading-relaxed text-muted-foreground">
-                Morador em Campos dos Goytacazes, conduzo projetos de estruturação comercial, expansão de mercado
+                Residente em Campos dos Goytacazes, conduzo projetos de estruturação comercial, expansão de mercado
                 e desenvolvimento de lideranças para empresas que querem crescer com consistência.
               </p>
             </div>
