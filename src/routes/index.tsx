@@ -113,16 +113,11 @@ function Index() {
       <main id="topo" className="mx-auto max-w-4xl px-5">
         <section className="pt-16 pb-20 text-center sm:pt-24">
           <img
-            src={portrait.url}
-            alt="Gleyton Rosa"
-            className="mx-auto size-28 rounded-full object-cover ring-1 ring-border sm:size-32"
-          />
-          <img
             src={monogram.url}
             alt="Marca GR — Gleyton Rosa"
-            className="mx-auto mt-6 w-20 object-contain opacity-70 sm:w-24"
+            className="mx-auto w-24 object-contain sm:w-32"
           />
-          <h1 className="mt-6 font-display text-4xl font-light leading-tight tracking-wide sm:text-6xl">
+          <h1 className="mt-8 font-display text-4xl font-light leading-tight tracking-wide sm:text-6xl">
             <span className="text-foreground">GLEYTON </span>
             <span className="text-gold">ROSA</span>
           </h1>
@@ -156,15 +151,24 @@ function Index() {
 
         <section id="sobre" className="border-t border-border py-16">
           <SectionLabel n="01">Sobre</SectionLabel>
-          <p className="mt-8 max-w-[56ch] text-[15px] leading-relaxed text-foreground/90">
-            Atuo na fronteira entre estratégia e execução comercial. Meu trabalho começa no diagnóstico honesto
-            da operação e termina na rotina de gestão que faz o número acontecer — com time engajado e processo
-            claro.
-          </p>
-          <p className="mt-4 max-w-[56ch] text-[15px] leading-relaxed text-muted-foreground">
-            Baseado em Campos dos Goytacazes, conduzo projetos de estruturação comercial, expansão de mercado e
-            desenvolvimento de lideranças para empresas que querem crescer com consistência.
-          </p>
+          <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start">
+            <img
+              src={portrait.url}
+              alt="Gleyton Rosa"
+              className="size-24 shrink-0 rounded-full object-cover ring-1 ring-primary/40 sm:size-28"
+            />
+            <div className="min-w-0">
+              <p className="max-w-[56ch] text-[15px] leading-relaxed text-foreground/90">
+                Atuo na fronteira entre estratégia e execução comercial. Meu trabalho começa no diagnóstico
+                honesto da operação e termina na rotina de gestão que faz o número acontecer — com time engajado
+                e processo claro.
+              </p>
+              <p className="mt-4 max-w-[56ch] text-[15px] leading-relaxed text-muted-foreground">
+                Baseado em Campos dos Goytacazes, conduzo projetos de estruturação comercial, expansão de mercado
+                e desenvolvimento de lideranças para empresas que querem crescer com consistência.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section id="atuacao" className="border-t border-border py-16">
