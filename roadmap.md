@@ -5,6 +5,8 @@
 - [x] Contato: excluir Marketing e LinkedIn; 6 cartões no grid 2x3 proporcional
 - [x] Atuação: novos 4 pilares — Marketing e Posicionamento, Estratégia Comercial, Tecnologia e IA, Gestão e Expansão
 - [x] Atuação: frase de abertura da seção — "Atuação direta: quem analisa e desenha o projeto é quem acompanha até o resultado."
+- [x] Atuação: frase de abertura em linha única no desktop (fonte 22px, sem limite de largura)
+
 
 
 
