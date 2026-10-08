@@ -31,23 +31,23 @@ const nav = [
 const pilares = [
   {
     n: "01",
-    t: "Estratégia Comercial",
-    d: "Desenho de posicionamento, política comercial e metas que sustentam crescimento previsível.",
+    t: "Marketing e Posicionamento",
+    d: "Marca, posicionamento e geração de demanda para atrair o cliente certo e sustentar a venda.",
   },
   {
     n: "02",
-    t: "Gestão de Operações",
-    d: "Processos, indicadores e rotina de gestão para transformar plano em execução diária.",
+    t: "Estratégia Comercial",
+    d: "Modelo de vendas, prospecção, política comercial e metas que sustentam crescimento previsível.",
   },
   {
     n: "03",
-    t: "Liderança de Times",
-    d: "Formação, treinamento e cobrança de equipes de vendas com clareza de papel e resultado.",
+    t: "Tecnologia e IA",
+    d: "Automação, CRM, dados e inteligência artificial aplicados ao processo comercial e à gestão.",
   },
   {
     n: "04",
-    t: "Expansão e Novos Negócios",
-    d: "Abertura de mercados, parcerias e canais com leitura fina de contexto regional.",
+    t: "Gestão e Expansão",
+    d: "Processos, indicadores e rotina de gestão, com leitura de mercado para abrir canais e novos negócios.",
   },
 ];
 
