@@ -172,7 +172,10 @@ function Index() {
 
         <section id="atuacao" className="border-t border-border py-16">
           <SectionLabel n="02">Atuação</SectionLabel>
-          <div className="mt-8 grid gap-px overflow-hidden border border-border bg-border sm:grid-cols-2">
+          <p className="mt-6 max-w-[46ch] font-display text-[22px] font-light leading-snug text-foreground/90 sm:text-[26px]">
+            Atuação direta: quem analisa e desenha o projeto é quem acompanha até o resultado.
+          </p>
+          <div className="mt-10 grid gap-px overflow-hidden border border-border bg-border sm:grid-cols-2">
             {pilares.map((p) => (
               <div key={p.n} className="bg-card p-6">
                 <span className="font-sans text-[11px] tracking-brand text-primary">{p.n}</span>
