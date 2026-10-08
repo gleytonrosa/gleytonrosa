@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Mail, Instagram, Facebook, Linkedin, MapPin } from "lucide-react";
 
-import monogram from "@/assets/gr-monogram.png.asset.json";
+import logoPrincipal from "@/assets/gr-logo-principal.png.asset.json";
+import monograma from "@/assets/gr-monograma.png.asset.json";
 import portrait from "@/assets/gleyton-portrait.png.asset.json";
 
 const TITLE = "Gleyton Rosa — Executivo de Negócios e Estratégia Comercial";
@@ -103,7 +104,7 @@ function Index() {
       <header className="sticky top-0 z-50 border-b border-border bg-background/85 backdrop-blur-md">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-5 py-3.5">
           <a href="#topo" className="flex items-center gap-2.5">
-            <img src={monogram.url} alt="Monograma GR de Gleyton Rosa" className="size-7 object-contain" />
+            <img src={monograma.url} alt="Monograma GR de Gleyton Rosa" className="size-7 object-contain" />
             <span className="font-display text-base tracking-wide text-foreground">Gleyton Rosa</span>
           </a>
           <nav className="hidden items-center gap-6 sm:flex">
@@ -121,25 +122,15 @@ function Index() {
       </header>
 
       <main id="topo" className="mx-auto max-w-4xl px-5">
-        <section className="pt-16 pb-20 text-center sm:pt-24">
-          <img
-            src={monogram.url}
-            alt="Marca GR — Gleyton Rosa"
-            className="mx-auto w-24 object-contain sm:w-32"
-          />
-          <h1 className="mt-8 font-display text-4xl font-light leading-tight tracking-wide sm:text-6xl">
-            <span className="text-foreground">GLEYTON </span>
-            <span className="text-gold">ROSA</span>
+        <section className="pt-14 pb-20 text-center sm:pt-20">
+          <h1 className="sr-only">
+            Gleyton Rosa — Executivo de Marketing, Estratégia, Tecnologia e IA
           </h1>
-          <div className="mt-5 flex items-center justify-center gap-4">
-            <span className="h-px w-10 rule-gold" />
-            <p className="font-sans text-[10px] uppercase leading-relaxed tracking-brand text-muted-foreground sm:text-[11px]">
-              Executivo de Negócios e
-              <br />
-              Estratégia Comercial
-            </p>
-            <span className="h-px w-10 rule-gold" />
-          </div>
+          <img
+            src={logoPrincipal.url}
+            alt="Gleyton Rosa — Executivo • Marketing • Estratégia • Tecnologia e IA"
+            className="mx-auto w-[260px] object-contain sm:w-[340px]"
+          />
           <p className="mx-auto mt-10 max-w-[46ch] text-[15px] leading-relaxed text-muted-foreground">
             Transformo intenção comercial em operação que entrega. Estratégia, disciplina de execução e
             liderança de equipes que sustentam resultado no longo prazo.
