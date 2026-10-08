@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Instagram, Facebook, Linkedin, MapPin } from "lucide-react";
+import { Mail, Instagram, Facebook, MapPin } from "lucide-react";
 
 import logoPrincipal from "@/assets/gr-logo-principal.png.asset.json";
 import monograma from "@/assets/gr-monograma.png.asset.json";
@@ -73,10 +73,8 @@ const contatos = [
   { Icon: Mail, label: "E-mail", value: "gleyton.corporativo@gmail.com", href: "mailto:gleyton.corporativo@gmail.com" },
   { Icon: WhatsAppIcon, label: "WhatsApp", value: "22 99261-5382", href: "https://wa.me/5522992615382" },
   { Icon: WhatsAppIcon, label: "Comercial", value: "22 98830-8762", href: "https://wa.me/5522988308762" },
-  { Icon: WhatsAppIcon, label: "Marketing", value: "22 92550-0775", href: "https://wa.me/5522925500775" },
   { Icon: Instagram, label: "Instagram", value: "@gleyton.rosa", href: "https://instagram.com/gleyton.rosa" },
   { Icon: Facebook, label: "Facebook", value: "@gleyton.rosa", href: "https://facebook.com/gleyton.rosa" },
-  { Icon: Linkedin, label: "LinkedIn", value: "@gleyton.rosa", href: "https://linkedin.com/in/gleyton.rosa" },
   { Icon: MapPin, label: "Localização", value: "Campos dos Goytacazes — RJ", href: null },
 ];
 
@@ -217,8 +215,8 @@ function Index() {
             {contatos.map(({ Icon, label, value, href }) => {
               const inner = (
                 <span className="flex items-center gap-4">
-                  <span className="grid size-9 shrink-0 place-items-center rounded-full border border-primary/50">
-                    <Icon className="size-4 text-primary" strokeWidth={1.5} />
+                  <span className="grid size-10 shrink-0 place-items-center rounded-full border border-primary/50">
+                    <Icon className="size-[18px] text-primary" strokeWidth={1.5} />
                   </span>
                   <span className="min-w-0">
                     <span className="block font-sans text-[10px] uppercase tracking-brand text-muted-foreground">
@@ -234,12 +232,12 @@ function Index() {
                   href={href}
                   target={href.startsWith("http") ? "_blank" : undefined}
                   rel={href.startsWith("http") ? "noreferrer" : undefined}
-                  className="bg-card p-5 transition-colors hover:bg-secondary"
+                  className="bg-card p-6 transition-colors hover:bg-secondary"
                 >
                   {inner}
                 </a>
               ) : (
-                <div key={label} className="bg-card p-5">
+                <div key={label} className="bg-card p-6">
                   {inner}
                 </div>
               );
