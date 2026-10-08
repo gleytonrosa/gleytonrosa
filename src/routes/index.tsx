@@ -83,7 +83,7 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Logística",
-  "Bacharelado em Fisioterapia",
+  "Bacharelado em Fisioterapia. \nEngenharia da Computação (em andamento)\n",
 ];
 
 const posGraduacao = [
