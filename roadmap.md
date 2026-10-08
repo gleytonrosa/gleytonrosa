@@ -6,6 +6,7 @@
 - [x] Atuação: novos 4 pilares — Marketing e Posicionamento, Estratégia Comercial, Tecnologia e IA, Gestão e Expansão
 - [x] Atuação: frase de abertura da seção — "Atuação direta: quem analisa e desenha o projeto é quem acompanha até o resultado."
 - [x] Atuação: frase de abertura em linha única no desktop (fonte 22px, sem limite de largura)
+- [x] Trajetória: 5 marcos — Executivo de Negócios (Gleyton Rosa), Diretor Comercial e de Marketing (Inovação Licitações), Empresário (Ilumina Empreendimentos), Projetos Técnicos (Fort Macaé / Tela Viva), Início de Carreira (Servcom, Bradesco, Volkswagen, Embratel)
 
 
 
