@@ -25,6 +25,7 @@ const nav = [
   { href: "#sobre", label: "Sobre" },
   { href: "#atuacao", label: "Atuação" },
   { href: "#trajetoria", label: "Trajetória" },
+  { href: "#formacao", label: "Formação" },
   { href: "#contato", label: "Contato" },
 ];
 
@@ -77,6 +78,38 @@ const trajetoria = [
     c: "Base técnica e corporativa",
     d: "Técnico de sistemas na Servcom, gerente no Bradesco, consultor técnico na Volkswagen e suporte e tecnologia na Embratel.",
   },
+];
+
+const graduacao = [
+  "Tecnólogo em Marketing",
+  "Tecnólogo em Logística",
+  "Bacharelado em Fisioterapia",
+];
+
+const posGraduacao = [
+  {
+    t: "Marketing e Vendas",
+    itens: [
+      "MBA Executivo em Gestão Comercial, Marketing e Vendas",
+      "MBA Executivo em Gestão Estratégica de Marketing, Planejamento e Inteligência Competitiva",
+      "MBA Executivo em Marketing e Redes Sociais",
+    ],
+  },
+  {
+    t: "Gestão e Inovação",
+    itens: ["MBA Executivo em Gestão Empresarial", "MBA em Gestão Empresarial e Inovação"],
+  },
+  {
+    t: "Inteligência de Mercado e Dados",
+    itens: [
+      "MBA Executivo em Inteligência Comercial e de Mercado",
+      "MBA Executivo em Gestão Competitiva e Business Intelligence (BI)",
+      "MBA em Tecnologia para Negócios: Data Science e Big Data",
+      "Business Intelligence",
+    ],
+  },
+  { t: "Tecnologia", itens: ["Inteligência Artificial"] },
+  { t: "Saúde", itens: ["Fisioterapia Intensiva"] },
 ];
 
 const contatos = [
@@ -210,6 +243,45 @@ function Index() {
           </ol>
         </section>
 
+        <section id="formacao" className="border-t border-border py-16">
+          <SectionLabel n="04">Formação</SectionLabel>
+
+          <div className="mt-10 grid gap-3 border-b border-border pb-7 sm:grid-cols-[200px_1fr] sm:gap-6">
+            <p className="font-sans text-[10px] uppercase tracking-brand text-primary">Graduação</p>
+            <p className="font-display text-[19px] font-light leading-snug text-foreground sm:text-[21px]">
+              {graduacao.map((g, i) => (
+                <span key={g}>
+                  {i > 0 && <span className="text-primary"> · </span>}
+                  {g}
+                </span>
+              ))}
+            </p>
+          </div>
+
+          <p className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
+            Pós-graduação e MBAs
+          </p>
+          <dl className="mt-5">
+            {posGraduacao.map((g) => (
+              <div
+                key={g.t}
+                className="grid gap-2 border-b border-border py-5 sm:grid-cols-[200px_1fr] sm:gap-6"
+              >
+                <dt className="font-display text-[17px] tracking-wide text-foreground sm:pt-0.5">
+                  {g.t}
+                </dt>
+                <dd className="space-y-1.5">
+                  {g.itens.map((i) => (
+                    <p key={i} className="text-[13.5px] leading-relaxed text-muted-foreground">
+                      {i}
+                    </p>
+                  ))}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
         <section className="border-t border-border py-20 text-center">
           <p className="mx-auto max-w-[26ch] font-display text-2xl font-light italic leading-snug text-foreground sm:text-3xl">
             “Resultado não é sorte. É estratégia repetida com disciplina.”
@@ -220,7 +292,7 @@ function Index() {
         </section>
 
         <section id="contato" className="border-t border-border py-16">
-          <SectionLabel n="04">Contato</SectionLabel>
+          <SectionLabel n="05">Contato</SectionLabel>
           <h2 className="mt-8 max-w-[24ch] font-display text-3xl font-light leading-tight tracking-wide text-foreground">
             Vamos conversar sobre o próximo passo do seu negócio.
           </h2>
