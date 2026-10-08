@@ -54,18 +54,28 @@ const pilares = [
 const trajetoria = [
   {
     p: "Atual",
-    c: "Executivo de Negócios · Consultoria independente",
-    d: "Condução de projetos de estruturação comercial e aceleração de resultados para empresas de todo o território nacional.",
+    c: "Executivo de Negócios · Gleyton Rosa",
+    d: "Marketing, estratégia comercial, tecnologia e IA aplicados a negócios, com atuação direta e individual.",
   },
   {
-    p: "Anos recentes",
-    c: "Gestão Comercial · Operações regionais",
-    d: "Liderança de equipes de vendas, definição de metas e implantação de rotina de acompanhamento por indicadores.",
+    p: "Atual",
+    c: "Diretor Comercial e de Marketing · Inovação Licitações",
+    d: "Condução da área comercial e do marketing da empresa, com foco em licitações.",
+  },
+  {
+    p: "Negócios próprios",
+    c: "Empresário · Ilumina Empreendimentos",
+    d: "Proprietário da Ilumina Empreendimentos e responsável por consultório particular de Fisioterapia.",
+  },
+  {
+    p: "Projetos técnicos",
+    c: "Segurança e Coordenação de Projetos",
+    d: "Sistemas de segurança na Fort Macaé e coordenação técnica de projetos na Tela Viva Ltda.",
   },
   {
     p: "Início de carreira",
-    c: "Vendas e Relacionamento",
-    d: "Base construída no campo: negociação, carteira de clientes e leitura direta da necessidade do cliente.",
+    c: "Base técnica e corporativa",
+    d: "Técnico de sistemas na Servcom, gerente no Bradesco, consultor técnico na Volkswagen e suporte e tecnologia na Embratel.",
   },
 ];
 
