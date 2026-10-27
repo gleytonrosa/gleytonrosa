@@ -113,7 +113,7 @@ const posGraduacao = [
 ];
 
 const contatos = [
-  { Icon: Mail, label: "E-mail", value: "gleyton.corporativo@gmail.com", href: "mailto:gleyton.corporativo@gmail.com" },
+  { Icon: Mail, label: "E-mail", value: "contato@grrosa.online", href: "mailto:contato@grrosa.online" },
   { Icon: WhatsAppIcon, label: "WhatsApp", value: "22 99261-5382", href: "https://wa.me/5522992615382" },
   { Icon: WhatsAppIcon, label: "Comercial", value: "22 98830-8762", href: "https://wa.me/5522988308762" },
   { Icon: Instagram, label: "Instagram", value: "@gleyton.rosa", href: "https://instagram.com/gleyton.rosa" },
