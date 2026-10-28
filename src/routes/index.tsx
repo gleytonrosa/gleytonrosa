@@ -5,9 +5,9 @@ import logoPrincipal from "@/assets/gr-logo-principal.png.asset.json";
 import monograma from "@/assets/gr-monograma.png.asset.json";
 import portrait from "@/assets/gleyton-portrait.png.asset.json";
 
-const TITLE = "Gleyton Rosa — Executivo de Negócios e Estratégia Comercial";
+const TITLE = "Gleyton Rosa — IA Aplicada a Negócios, Marketing e Estratégia Comercial";
 const DESCRIPTION =
-  "Executivo de negócios e estratégia comercial em Campos dos Goytacazes. Foco, estratégia e resultados na condução de operações e times comerciais.";
+  "Gleyton Rosa, executivo de gestão comercial e marketing em Campos dos Goytacazes. IA aplicada a negócios, estratégia comercial, RevOps, dados e BI.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -16,6 +16,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: DESCRIPTION },
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
     ],
   }),
   component: Index,
@@ -24,8 +26,11 @@ export const Route = createFileRoute("/")({
 const nav = [
   { href: "#sobre", label: "Sobre" },
   { href: "#atuacao", label: "Atuação" },
+  { href: "#ia", label: "IA" },
+  { href: "#servicos", label: "Serviços" },
   { href: "#trajetoria", label: "Trajetória" },
   { href: "#formacao", label: "Formação" },
+  { href: "#conteudo", label: "Conteúdo" },
   { href: "#contato", label: "Contato" },
 ];
 
@@ -52,6 +57,30 @@ const pilares = [
   },
 ];
 
+const iaTopicos = [
+  "ChatGPT e IA generativa",
+  "Engenharia de prompts e assistentes",
+  "Agentes e automação de processos",
+  "RevOps e CRM",
+  "BI e dados",
+  "Prototipagem de soluções digitais",
+  "IA em marketing, vendas e gestão",
+];
+
+const servicos = [
+  { t: "Consultoria em IA aplicada a negócios", d: "Diagnóstico de processos e identificação de onde a IA gera ganho real de produtividade e decisão." },
+  { t: "ChatGPT e engenharia de prompts", d: "Uso estruturado de IA generativa, prompts e assistentes para rotinas comerciais e de gestão." },
+  { t: "Inteligência comercial e RevOps", d: "Integração de marketing, vendas e pós-venda com processos, CRM e indicadores comuns." },
+  { t: "Dados e BI", d: "Organização de dados e painéis para acompanhar resultados e apoiar decisões." },
+  { t: "Desenvolvimento e prototipagem com IA", d: "Prototipagem de soluções digitais e automações para validar ideias com agilidade." },
+  { t: "Treinamentos corporativos", d: "Capacitação de equipes em IA, marketing, vendas e gestão comercial." },
+];
+
+const conteudos = [
+  { t: "GR Educação", d: "Cursos, e-books e treinamentos", futureHref: "https://suportei.grrosa.online" },
+  { t: "GR Notícias", d: "Notícias, análises e tendências em IA e tecnologia", futureHref: "https://noticias.grrosa.online" },
+];
+
 const trajetoria = [
   {
     p: "Atual",
@@ -66,7 +95,7 @@ const trajetoria = [
   {
     p: "Negócios próprios",
     c: "Empresário · Ilumina Empreendimentos",
-    d: "Proprietário da Ilumina Empreendimentos e responsável por consultório particular de Fisioterapia.",
+    d: "Proprietário da Ilumina Empreendimentos.",
   },
   {
     p: "Projetos técnicos",
@@ -83,7 +112,7 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Logística",
-  "Bacharelado em Fisioterapia. \nEngenharia da Computação (em andamento)\n",
+  "Engenharia da Computação (em andamento)",
 ];
 
 const posGraduacao = [
@@ -109,7 +138,6 @@ const posGraduacao = [
     ],
   },
   { t: "Tecnologia", itens: ["Inteligência Artificial"] },
-  { t: "Saúde", itens: ["Fisioterapia Intensiva"] },
 ];
 
 const contatos = [
@@ -148,33 +176,46 @@ function Index() {
             <img src={monograma.url} alt="Monograma GR de Gleyton Rosa" className="size-7 object-contain" />
             <span className="font-display text-base tracking-wide text-foreground">Gleyton Rosa</span>
           </a>
-          <nav className="hidden items-center gap-6 sm:flex">
+          <nav aria-label="Seções" className="hidden items-center gap-5 lg:flex">
             {nav.map((i) => (
               <a
                 key={i.href}
                 href={i.href}
-                className="font-sans text-[11px] uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-primary"
+                className="font-sans text-[11px] uppercase tracking-[0.16em] text-muted-foreground transition-colors hover:text-primary"
               >
                 {i.label}
               </a>
             ))}
           </nav>
         </div>
+        <nav aria-label="Seções" className="overflow-x-auto border-t border-border lg:hidden">
+          <div className="mx-auto flex w-max gap-5 px-5 py-2.5">
+            {nav.map((i) => (
+              <a
+                key={i.href}
+                href={i.href}
+                className="whitespace-nowrap font-sans text-[11px] uppercase tracking-[0.16em] text-muted-foreground transition-colors hover:text-primary"
+              >
+                {i.label}
+              </a>
+            ))}
+          </div>
+        </nav>
       </header>
 
       <main id="topo" className="mx-auto max-w-4xl px-5">
         <section className="pt-14 pb-20 text-center sm:pt-20">
           <h1 className="sr-only">
-            Gleyton Rosa — Executivo de Marketing, Estratégia, Tecnologia e IA
+            Gleyton Rosa — Executivo de Marketing, Estratégia Comercial e IA Aplicada a Negócios
           </h1>
           <img
             src={logoPrincipal.url}
             alt="Gleyton Rosa — Executivo • Marketing • Estratégia • Tecnologia e IA"
             className="mx-auto w-[260px] object-contain sm:w-[340px]"
           />
-          <p className="mx-auto mt-10 max-w-[46ch] text-[15px] leading-relaxed text-muted-foreground">
-            Transformo intenção comercial em operação que entrega. Estratégia, disciplina de execução e
-            liderança de equipes que sustentam resultado no longo prazo.
+          <p className="mx-auto mt-10 max-w-[48ch] text-[15px] leading-relaxed text-muted-foreground">
+            Gestão comercial e marketing com estratégia, processos, dados e inteligência artificial aplicada a
+            negócios — para transformar intenção comercial em operação que entrega.
           </p>
           <a
             href="#contato"
@@ -191,8 +232,9 @@ function Index() {
           </div>
         </section>
 
-        <section id="sobre" className="border-t border-border py-16">
+        <section id="sobre" className="scroll-mt-28 border-t border-border py-16">
           <SectionLabel n="01">Sobre</SectionLabel>
+          <h2 className="sr-only">Sobre Gleyton Rosa</h2>
           <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start">
             <img
               src={portrait.url}
@@ -201,23 +243,23 @@ function Index() {
             />
             <div className="min-w-0">
               <p className="max-w-[56ch] text-[15px] leading-relaxed text-foreground/90">
-                Atuo na fronteira entre estratégia e execução comercial. Meu trabalho começa no diagnóstico
-                honesto da operação e termina na rotina de gestão que faz o número acontecer — com time engajado
-                e processo claro.
+                Executivo de gestão comercial e marketing, atuo na fronteira entre estratégia e execução. Combino
+                processos, dados, tecnologia e inteligência artificial para estruturar operações comerciais mais
+                eficientes — do diagnóstico honesto à rotina de gestão que faz o número acontecer.
               </p>
               <p className="mt-4 max-w-[56ch] text-[15px] leading-relaxed text-muted-foreground">
-                Residente em Campos dos Goytacazes, conduzo projetos de estruturação comercial, expansão de mercado
-                e desenvolvimento de lideranças para empresas que querem crescer com consistência.
+                Residente em Campos dos Goytacazes, conduzo projetos de estruturação comercial, marketing, expansão
+                de mercado e soluções de IA aplicada a negócios em todo o território nacional.
               </p>
             </div>
           </div>
         </section>
 
-        <section id="atuacao" className="border-t border-border py-16">
+        <section id="atuacao" className="scroll-mt-28 border-t border-border py-16">
           <SectionLabel n="02">Atuação</SectionLabel>
-          <p className="mt-6 font-display text-[19px] font-light leading-snug text-foreground/90 sm:text-[22px]">
+          <h2 className="mt-6 font-display text-[19px] font-light leading-snug text-foreground/90 sm:text-[22px]">
             Atuação direta: quem analisa e desenha o projeto é quem acompanha até o resultado.
-          </p>
+          </h2>
           <div className="mt-10 grid gap-px overflow-hidden border border-border bg-border sm:grid-cols-2">
             {pilares.map((p) => (
               <div key={p.n} className="bg-card p-6">
@@ -229,8 +271,47 @@ function Index() {
           </div>
         </section>
 
-        <section id="trajetoria" className="border-t border-border py-16">
-          <SectionLabel n="03">Trajetória</SectionLabel>
+        <section id="ia" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="03">IA Aplicada</SectionLabel>
+          <h2 className="mt-6 font-display text-3xl font-light leading-tight tracking-wide text-foreground">
+            IA Aplicada a Negócios
+          </h2>
+          <p className="mt-4 max-w-[60ch] text-[15px] leading-relaxed text-muted-foreground">
+            A inteligência artificial é uma ferramenta de gestão: bem aplicada, reduz trabalho repetitivo, organiza
+            informação e apoia decisões comerciais. O foco está no uso prático, ligado a processos e indicadores do
+            negócio.
+          </p>
+          <ul className="mt-8 grid gap-x-8 gap-y-3 sm:grid-cols-2">
+            {iaTopicos.map((t) => (
+              <li key={t} className="flex items-start gap-3 text-[14px] leading-relaxed text-foreground/90">
+                <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                {t}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section id="servicos" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="04">Serviços</SectionLabel>
+          <h2 className="mt-6 font-display text-3xl font-light leading-tight tracking-wide text-foreground">
+            Serviços e Soluções
+          </h2>
+          <p className="mt-4 max-w-[60ch] text-[15px] leading-relaxed text-muted-foreground">
+            Áreas de atuação e soluções, adaptadas à realidade de cada empresa.
+          </p>
+          <div className="mt-8 grid gap-px overflow-hidden border border-border bg-border sm:grid-cols-2">
+            {servicos.map((s) => (
+              <div key={s.t} className="bg-card p-6">
+                <h3 className="font-display text-xl tracking-wide text-foreground">{s.t}</h3>
+                <p className="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">{s.d}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section id="trajetoria" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="05">Trajetória</SectionLabel>
+          <h2 className="sr-only">Trajetória profissional</h2>
           <ol className="relative mt-10 border-l border-border">
             {trajetoria.map((t) => (
               <li key={t.c} className="relative pb-10 pl-7 last:pb-0">
@@ -243,24 +324,24 @@ function Index() {
           </ol>
         </section>
 
-        <section id="formacao" className="border-t border-border py-16">
-          <SectionLabel n="04">Formação</SectionLabel>
+        <section id="formacao" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="06">Formação</SectionLabel>
+          <h2 className="sr-only">Formação acadêmica</h2>
 
           <div className="mt-10 grid gap-3 border-b border-border pb-7 sm:grid-cols-[200px_1fr] sm:gap-6">
-            <p className="font-sans text-[10px] uppercase tracking-brand text-primary">Graduação</p>
-            <p className="font-display text-[19px] font-light leading-snug text-foreground sm:text-[21px]">
-              {graduacao.map((g, i) => (
-                <span key={g}>
-                  {i > 0 && <span className="text-primary"> · </span>}
+            <h3 className="font-sans text-[10px] uppercase tracking-brand text-primary sm:pt-1.5">Graduação</h3>
+            <ul className="space-y-1.5">
+              {graduacao.map((g) => (
+                <li key={g} className="font-display text-[19px] font-light leading-snug text-foreground sm:text-[21px]">
                   {g}
-                </span>
+                </li>
               ))}
-            </p>
+            </ul>
           </div>
 
-          <p className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
+          <h3 className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
             Pós-graduação e MBAs
-          </p>
+          </h3>
           <dl className="mt-5">
             {posGraduacao.map((g) => (
               <div
@@ -282,6 +363,26 @@ function Index() {
           </dl>
         </section>
 
+        <section id="conteudo" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="07">Conteúdo</SectionLabel>
+          <h2 className="mt-6 font-display text-3xl font-light leading-tight tracking-wide text-foreground">
+            Conhecimento e Conteúdo
+          </h2>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {conteudos.map((c) => (
+              // futureHref reservado: transformar em link quando o portal estiver ativo
+              <div key={c.t} data-future-href={c.futureHref} className="border border-border bg-card p-7">
+                <img src={monograma.url} alt="" aria-hidden="true" className="size-9 object-contain" />
+                <h3 className="mt-5 font-display text-2xl tracking-wide text-foreground">{c.t}</h3>
+                <p className="mt-2 text-[13.5px] leading-relaxed text-muted-foreground">{c.d}</p>
+                <span className="mt-5 inline-block rounded-sm border border-primary/50 px-3 py-1 font-sans text-[10px] uppercase tracking-brand text-primary">
+                  Em preparação
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <section className="border-t border-border py-20 text-center">
           <p className="mx-auto max-w-[26ch] font-display text-2xl font-light italic leading-snug text-foreground sm:text-3xl">
             “Resultado não é sorte. É estratégia repetida com disciplina.”
@@ -291,8 +392,8 @@ function Index() {
           </p>
         </section>
 
-        <section id="contato" className="border-t border-border py-16">
-          <SectionLabel n="05">Contato</SectionLabel>
+        <section id="contato" className="scroll-mt-28 border-t border-border py-16">
+          <SectionLabel n="08">Contato</SectionLabel>
           <h2 className="mt-8 max-w-[24ch] font-display text-3xl font-light leading-tight tracking-wide text-foreground">
             Vamos conversar sobre o próximo passo do seu negócio.
           </h2>
