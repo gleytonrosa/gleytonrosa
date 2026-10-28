@@ -13,3 +13,4 @@
 
 
 
+- [x] Reposicionamento IA: seções IA Aplicada, Serviços e Soluções, Conhecimento e Conteúdo (Em preparação); Fisioterapia removida; navegação no celular; SEO revisado
