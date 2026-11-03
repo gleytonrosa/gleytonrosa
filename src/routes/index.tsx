@@ -226,8 +226,8 @@ function Index() {
           </a>
           <div className="mt-16 border-t border-border pt-4">
             <p className="font-sans text-[10px] uppercase tracking-brand text-muted-foreground">
-              Foco <span className="text-primary">•</span> Estratégia <span className="text-primary">•</span>{" "}
-              Resultados
+              EXECUTIVO<span className="text-primary">•</span> MARKETING <span className="text-primary">•</span>{" "}
+              ESTRATÉGIA <span className="text-primary">•</span> TECNOLOGIA &amp; IA
             </p>
           </div>
         </section>
