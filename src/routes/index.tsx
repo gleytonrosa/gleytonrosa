@@ -94,8 +94,8 @@ const trajetoria = [
   },
   {
     p: "Negócios próprios",
-    c: "Empresário  SG Business & Tecnology",
-    d: "Proprietário da Ilumina Empreendimentos.",
+    c: "Empresário",
+    d: "SG BUSINESS & TECNOLOGY",
   },
   {
     p: "Projetos técnicos",
