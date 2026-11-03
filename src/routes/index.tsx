@@ -394,7 +394,7 @@ function Index() {
 
         <section id="contato" className="scroll-mt-28 border-t border-border py-16">
           <SectionLabel n="08">Contato</SectionLabel>
-          <h2 className="mt-8 max-w-[24ch] font-display text-3xl font-light leading-tight tracking-wide text-foreground">
+          <h2 className="mt-8 font-display text-3xl font-light leading-tight tracking-wide text-foreground sm:whitespace-nowrap">
             Vamos conversar sobre o próximo passo do seu negócio.
           </h2>
           <div className="mt-8 grid gap-px overflow-hidden border border-border bg-border sm:grid-cols-2">
