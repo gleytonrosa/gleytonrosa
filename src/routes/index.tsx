@@ -100,7 +100,7 @@ const trajetoria = [
   {
     p: "Projetos técnicos",
     c: "Segurança e Coordenação de Projetos",
-    d: "Sistemas de segurança na Fort Macaé e coordenação técnica de projetos na Tela Viva Ltda.",
+    d: "Projetos de software integrado à inteligência Artificial (IA), exigindo cuidados operacionais, onde uma IA amplia a superfície de riscos e altera a forma como o código e os dados são gerados.",
   },
   {
     p: "Início de carreira",
