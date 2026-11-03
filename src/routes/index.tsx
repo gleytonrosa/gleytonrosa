@@ -434,8 +434,7 @@ function Index() {
 
       <footer className="border-t border-border py-10 text-center">
         <p className="font-sans text-[10px] uppercase tracking-brand text-muted-foreground">
-          Foco <span className="text-primary">•</span> Estratégia <span className="text-primary">•</span>{" "}
-          Resultados
+          EXECUTIVO• MARKETING • ESTRATÉGIA • TECNOLOGIA &amp; IA
         </p>
         <p className="mt-3 font-sans text-[10px] tracking-[0.15em] text-muted-foreground/60">
           © {new Date().getFullYear()} Gleyton Rosa · Campos dos Goytacazes — RJ
