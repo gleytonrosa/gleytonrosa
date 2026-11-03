@@ -48,7 +48,7 @@ const pilares = [
   {
     n: "03",
     t: "Tecnologia e IA",
-    d: "Automação, CRM, dados e inteligência artificial aplicados ao processo comercial e à gestão.",
+    d: "Automação, CRM, criação e planejamento de interfaces digitais para a internet, dados, desenvolvimento de softwares e inteligência artificial aplicados ao processo comercial e à gestão.",
   },
   {
     n: "04",
