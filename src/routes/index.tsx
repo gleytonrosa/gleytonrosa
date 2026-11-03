@@ -137,7 +137,7 @@ const posGraduacao = [
       "Business Intelligence",
     ],
   },
-  { t: "Tecnologia", itens: ["Inteligência Artificial"] },
+  { t: "Tecnologia", itens: ["Inteligência Artificial\nArquitetura de Software"] },
 ];
 
 const contatos = [
