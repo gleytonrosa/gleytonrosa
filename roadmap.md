@@ -14,3 +14,6 @@
 
 
 - [x] Reposicionamento IA: seções IA Aplicada, Serviços e Soluções, Conhecimento e Conteúdo (Em preparação); Fisioterapia removida; navegação no celular; SEO revisado
+- [x] Citação "Resultado não é sorte..." em linha única no desktop (fonte inalterada)
+- [x] Rodapé: "EXECUTIVO • MARKETING • ESTRATÉGIA • TECNOLOGIA & IA" e assinatura GLEYTON ROSA
+- [x] Contato: título "Vamos conversar sobre o próximo passo do seu negócio." em linha única no desktop (fonte 30px inalterada)
