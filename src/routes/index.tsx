@@ -384,7 +384,7 @@ function Index() {
         </section>
 
         <section className="border-t border-border py-20 text-center">
-          <p className="mx-auto max-w-[26ch] font-display text-2xl font-light italic leading-snug text-foreground sm:text-3xl">
+          <p className="mx-auto font-display text-2xl font-light italic leading-snug text-foreground sm:whitespace-nowrap sm:text-3xl">
             “Resultado não é sorte. É estratégia repetida com disciplina.”
           </p>
           <p className="mt-6 font-sans text-[10px] uppercase tracking-brand text-muted-foreground">
