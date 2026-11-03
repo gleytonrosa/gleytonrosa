@@ -105,7 +105,7 @@ const trajetoria = [
   {
     p: "Início de carreira",
     c: "Base técnica e corporativa",
-    d: "Técnico de sistemas na Servcom, gerente no Bradesco, consultor técnico na Volkswagen e suporte e tecnologia na Embratel.",
+    d: "Conjunto estruturado de conhecimento, diretrizes, padrões e documentações técnicas que sustentam as operações, o desenvolvimento e a infraestrutura de um empresa.",
   },
 ];
 
