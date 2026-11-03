@@ -388,7 +388,7 @@ function Index() {
             “Resultado não é sorte. É estratégia repetida com disciplina.”
           </p>
           <p className="mt-6 font-sans text-[10px] uppercase tracking-brand text-muted-foreground">
-            Gleyton Rosa
+            GLEYTON ROSA
           </p>
         </section>
 
