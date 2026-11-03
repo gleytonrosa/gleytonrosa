@@ -72,7 +72,7 @@ const servicos = [
   { t: "ChatGPT e engenharia de prompts", d: "Uso estruturado de IA generativa, prompts e assistentes para rotinas comerciais e de gestão." },
   { t: "Inteligência comercial e RevOps", d: "Integração de marketing, vendas e pós-venda com processos, CRM e indicadores comuns." },
   { t: "Dados e BI", d: "Organização de dados e painéis para acompanhar resultados e apoiar decisões." },
-  { t: "Desenvolvimento e prototipagem com IA", d: "Prototipagem de soluções digitais e automações para validar ideias com agilidade." },
+  { t: "Desenvolvimento e prototipagem com IA", d: "Prototipagem de soluções digitais, softwares e automações para validar ideias com agilidade." },
   { t: "Treinamentos corporativos", d: "Capacitação de equipes em IA, marketing, vendas e gestão comercial." },
 ];
 
