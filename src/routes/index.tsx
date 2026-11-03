@@ -249,7 +249,7 @@ function Index() {
               </p>
               <p className="mt-4 max-w-[56ch] text-[15px] leading-relaxed text-muted-foreground">
                 Residente em Campos dos Goytacazes, conduzo projetos de estruturação comercial, marketing, expansão
-                de mercado e soluções de IA aplicada a negócios em todo o território nacional.
+                de mercado, Desenvolvimento de softwares. Web Design, Sites e soluções de IA aplicada a negócios em todo o território nacional.
               </p>
             </div>
           </div>
