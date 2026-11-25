@@ -90,12 +90,12 @@ const trajetoria = [
   {
     p: "Atual",
     c: "Diretor Comercial e de Marketing · Inovação Licitações",
-    d: "Condução da área comercial e do marketing da empresa, com foco em licitações.",
+    d: "Diretor comercial e do marketing da empresa, com foco em licitações.",
   },
   {
     p: "Negócios próprios",
     c: "Empresário",
-    d: "SG BUSINESS & TECNOLOGY",
+    d: "SG Business Sistemas e Gestão\nInovação Licitações",
   },
   {
     p: "Projetos técnicos",
@@ -112,7 +112,7 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
-  "Análise e Desenvolvimento de Sistemas \nEngenharia de Software (em andamento)",
+  "Análise e Desenvolvimento de Sistemas \nEngenharia de Software (em andamento)",
 ];
 
 const mestrado = ["Mestrado em Engenharia da Computação e Sistemas Inteligentes (em andamento)"];
