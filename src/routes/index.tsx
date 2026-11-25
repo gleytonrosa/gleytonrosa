@@ -112,8 +112,10 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
-  "Análise e Desenvolvimento de Sistemas \nEngenharia de Software (em andamento)",
+  "Análise e Desenvolvimento de Sistemas \nEngenharia de Software (em andamento)",
 ];
+
+const mestrado = ["Mestrado em Engenharia da Computação e Sistemas Inteligentes (em andamento)"];
 
 const posGraduacao = [
   {
@@ -341,6 +343,19 @@ function Index() {
               {graduacao.map((g) => (
                 <li key={g} className="font-display text-[19px] font-light leading-snug text-foreground sm:text-[21px]">
                   {g}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="grid gap-3 border-b border-border py-7 sm:grid-cols-[200px_1fr] sm:gap-6">
+            <h3 className="font-sans text-[10px] uppercase tracking-brand text-primary sm:pt-1.5">
+              Mestrado stricto sensu
+            </h3>
+            <ul className="space-y-1.5">
+              {mestrado.map((m) => (
+                <li key={m} className="font-display text-[19px] font-light leading-snug text-foreground sm:text-[21px]">
+                  {m}
                 </li>
               ))}
             </ul>
