@@ -144,7 +144,7 @@ const posGraduacao = [
       "Pós-graduação em Arquitetura de Software",
       "Pós-graduação em Arquitetura e Infraestrutura de T.I.",
       "Pós-graduação em Cybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações",
-      "Pós-graduação em Computação em Nuvem (Cloud Computing)\n Pós-graduação em Automação industrial\nPós-graduação em User Experience (UX) e User Interface (UI) ",
+      "Pós-graduação em Automação industrial \nPós-graduação em User Experience (UX) e User Interface (UI) \nPós-graduação em Computação em Nuvem (Cloud Computing)  \n\n",
     ],
   },
 ];
