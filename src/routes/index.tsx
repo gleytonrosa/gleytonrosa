@@ -112,38 +112,45 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
-  "Análise e Desenvolvimento de Sistemas\nEngenharia de Software (em andamento)",
+  "Análise e Desenvolvimento de Sistemas",
+  "Engenharia de Software (em andamento)",
 ];
 
 const posGraduacao = [
   {
-    t: "Marketing e Vendas",
+    t: "MBAs",
     itens: [
       "MBA Executivo em Gestão Comercial, Marketing e Vendas",
-      "MBA Executivo em Gestão Estratégica de Marketing, Planejamento e Inteligência Competitiva",
-      "MBA Executivo em Marketing e Redes Sociais•\nMBA em Neuromarketing",
-    ],
-  },
-  {
-    t: "Gestão e Inovação",
-    itens: [
-      "MBA Executivo em Gestão Empresarial",
-      "MBA em Gestão Empresarial e Inovação\nMBA Executivo em Gestão Comercial, Marketing e Vendas\nMBA Executivo em Inteligência Comercial e de Mercado\n",
-    ],
-  },
-  {
-    t: "Inteligência de Mercado e Dados",
-    itens: [
       "MBA Executivo em Inteligência Comercial e de Mercado",
       "MBA Executivo em Gestão Competitiva e Business Intelligence (BI)",
       "MBA em Tecnologia para Negócios: Data Science e Big Data",
-      "Business Intelligence\nMBA em Design Thinking\u00a0\u00a0",
+      "MBA Executivo em Gestão Estratégica de Marketing, Planejamento e Inteligência Competitiva",
+      "MBA em Inteligência Artificial Premium",
+      "MBA Executivo em Marketing e Redes Sociais",
+      "MBA em Gestão Empresarial e Inovação",
+      "MBA em Business Intelligence",
+      "MBA em Design Thinking",
+      "MBA em Gerenciamento de Projetos de T.I.",
+      "MBA em Gestão da Qualidade de Software",
+      "MBA em Telecomunicações com Ênfase em Redes, Sistemas de Informação e Internet das Coisas- iot",
+      "MBA em Neuromarketing",
+      "MBA em Gerenciamento de Processos de Negócio — BPM",
     ],
   },
   {
-    t: "Tecnologia",
+    t: "Pós-graduações",
     itens: [
-      "Inteligência Artificial\u00a0\nArquitetura de Software\nMBA em Telecomunicações com Ênfase em Redes, Sistemas de Informação e Internet das Coisas- iot\u00a0\nArquitetura e Infraestrutura de T.I.\u00a0\u00a0\nCybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações\u00a0\u00a0\nComputação em Nuvem (Cloud Computing)\u00a0\u00a0\nUser Experience (UX) e User Interface (UI)\nAutomação industrial\n",
+      "Pós-graduação em Arquitetura de Software",
+      "Pós-graduação em Arquitetura e Infraestrutura de T.I.",
+      "Pós-graduação em Cybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações",
+      "Pós-graduação em Computação em Nuvem (Cloud Computing)",
+    ],
+  },
+  {
+    t: "Complementares",
+    itens: [
+      "User Experience (UX) e User Interface (UI)",
+      "Automação industrial",
     ],
   },
 ];
@@ -348,7 +355,7 @@ function Index() {
           </div>
 
           <h3 className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
-            Pós-graduação e MBAs
+            Pós-graduação, MBAs e complementares
           </h3>
           <dl className="mt-5">
             {posGraduacao.map((g) => (

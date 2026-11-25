@@ -17,3 +17,4 @@
 - [x] Citação "Resultado não é sorte..." em linha única no desktop (fonte inalterada)
 - [x] Rodapé: "EXECUTIVO • MARKETING • ESTRATÉGIA • TECNOLOGIA & IA" e assinatura GLEYTON ROSA
 - [x] Contato: título "Vamos conversar sobre o próximo passo do seu negócio." em linha única no desktop (fonte 30px inalterada)
+- [x] Formação atualizada: Graduação (4 títulos) + 15 MBAs, 4 Pós-graduações e 2 Complementares, na ordem ditada pelo proprietário
