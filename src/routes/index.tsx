@@ -333,7 +333,7 @@ function Index() {
           </ol>
         </section>
 
-        <section id="formacao" className="scroll-mt-28 border-t border-border py-16">
+        <section id="formacao" className="scroll-mt-28 border-t border-border pt-16">
           <SectionLabel n="06">Formação</SectionLabel>
           <h2 className="sr-only">Formação acadêmica</h2>
 
@@ -364,7 +364,7 @@ function Index() {
           <h3 className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
             PÓS-GRADUAÇÃO & MBAS
           </h3>
-          <dl className="mt-5">
+          <dl className="mt-5 [&>div:last-child]:border-b-0">
             {posGraduacao.map((g) => (
               <div
                 key={g.t}
@@ -385,7 +385,7 @@ function Index() {
           </dl>
         </section>
 
-        <section id="conteudo" className="scroll-mt-28 border-t border-border py-16">
+        <section id="conteudo" className="scroll-mt-28 pb-16">
           <SectionLabel n="07">Conteúdo</SectionLabel>
           <h2 className="mt-6 font-display text-3xl font-light leading-tight tracking-wide text-foreground">
             Conhecimento e Conteúdo
