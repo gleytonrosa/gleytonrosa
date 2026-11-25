@@ -19,3 +19,4 @@
 - [x] Contato: título "Vamos conversar sobre o próximo passo do seu negócio." em linha única no desktop (fonte 30px inalterada)
 - [x] Formação atualizada: Graduação (4 títulos) + 15 MBAs, 4 Pós-graduações e 2 Complementares, na ordem ditada pelo proprietário
 - [x] Formação: bloco "Mestrado stricto sensu" — Mestrado em Engenharia da Computação e Sistemas Inteligentes (em andamento)
+- [x] Formação: inserir "Pós-graduação em Computação em Nuvem (Cloud Computing)" entre Cybersecurity e Automação industrial
