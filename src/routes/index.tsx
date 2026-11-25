@@ -112,8 +112,7 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
-  "Análise e Desenvolvimento de Sistemas",
-  "Engenharia de Software (em andamento)",
+  "Análise e Desenvolvimento de Sistemas \nEngenharia de Software (em andamento)",
 ];
 
 const posGraduacao = [
@@ -143,14 +142,7 @@ const posGraduacao = [
       "Pós-graduação em Arquitetura de Software",
       "Pós-graduação em Arquitetura e Infraestrutura de T.I.",
       "Pós-graduação em Cybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações",
-      "Pós-graduação em Computação em Nuvem (Cloud Computing)",
-    ],
-  },
-  {
-    t: "Complementares",
-    itens: [
-      "User Experience (UX) e User Interface (UI)",
-      "Automação industrial",
+      "Pós-graduação em Computação em Nuvem (Cloud Computing)\nPós-graduação em User Experience (UX) e User Interface (UI)\nPós-graduação em Automação industrial",
     ],
   },
 ];
@@ -355,7 +347,7 @@ function Index() {
           </div>
 
           <h3 className="mt-8 font-sans text-[10px] uppercase tracking-brand text-primary">
-            Pós-graduação, MBAs e complementares
+            PÓS-GRADUAÇÃO & MBAS
           </h3>
           <dl className="mt-5">
             {posGraduacao.map((g) => (
