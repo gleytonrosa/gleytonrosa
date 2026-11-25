@@ -111,8 +111,8 @@ const trajetoria = [
 
 const graduacao = [
   "Tecnólogo em Marketing",
-  "Tecnólogo em Logística",
-  "Engenharia da Computação (em andamento)",
+  "Tecnólogo em Sistemas para Internet",
+  "Análise e Desenvolvimento de Sistemas\nEngenharia de Software (em andamento)",
 ];
 
 const posGraduacao = [
@@ -121,12 +121,15 @@ const posGraduacao = [
     itens: [
       "MBA Executivo em Gestão Comercial, Marketing e Vendas",
       "MBA Executivo em Gestão Estratégica de Marketing, Planejamento e Inteligência Competitiva",
-      "MBA Executivo em Marketing e Redes Sociais",
+      "MBA Executivo em Marketing e Redes Sociais•\nMBA em Neuromarketing",
     ],
   },
   {
     t: "Gestão e Inovação",
-    itens: ["MBA Executivo em Gestão Empresarial", "MBA em Gestão Empresarial e Inovação"],
+    itens: [
+      "MBA Executivo em Gestão Empresarial",
+      "MBA em Gestão Empresarial e Inovação\nMBA Executivo em Gestão Comercial, Marketing e Vendas\nMBA Executivo em Inteligência Comercial e de Mercado\n",
+    ],
   },
   {
     t: "Inteligência de Mercado e Dados",
@@ -134,10 +137,15 @@ const posGraduacao = [
       "MBA Executivo em Inteligência Comercial e de Mercado",
       "MBA Executivo em Gestão Competitiva e Business Intelligence (BI)",
       "MBA em Tecnologia para Negócios: Data Science e Big Data",
-      "Business Intelligence",
+      "Business Intelligence\nMBA em Design Thinking\u00a0\u00a0",
     ],
   },
-  { t: "Tecnologia", itens: ["Inteligência Artificial\nArquitetura de Software"] },
+  {
+    t: "Tecnologia",
+    itens: [
+      "Inteligência Artificial\u00a0\nArquitetura de Software\nMBA em Telecomunicações com Ênfase em Redes, Sistemas de Informação e Internet das Coisas- iot\u00a0\nArquitetura e Infraestrutura de T.I.\u00a0\u00a0\nCybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações\u00a0\u00a0\nComputação em Nuvem (Cloud Computing)\u00a0\u00a0\nUser Experience (UX) e User Interface (UI)\nAutomação industrial\n",
+    ],
+  },
 ];
 
 const contatos = [
