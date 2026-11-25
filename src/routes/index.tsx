@@ -113,6 +113,7 @@ const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
   "Análise e Desenvolvimento de Sistemas",
+  "Engenharia de Software (em andamento)",
 ];
 
 const mestrado = ["Mestrado em Engenharia da Computação e Sistemas Inteligentes (em andamento)"];
