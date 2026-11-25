@@ -213,7 +213,7 @@ function Index() {
       </header>
 
       <main id="topo" className="mx-auto max-w-4xl px-5">
-        <section className="pt-14 pb-20 text-center sm:pt-20">
+        <section className="pt-14 pb-8 text-center sm:pt-20">
           <h1 className="sr-only">
             Gleyton Rosa — Executivo de Marketing, Estratégia Comercial e IA Aplicada a Negócios
           </h1>
@@ -241,7 +241,7 @@ function Index() {
           </div>
         </section>
 
-        <section id="sobre" className="scroll-mt-28 border-t border-border py-16">
+        <section id="sobre" className="scroll-mt-28 pb-16">
           <SectionLabel n="01">Sobre</SectionLabel>
           <h2 className="sr-only">Sobre Gleyton Rosa</h2>
           <div className="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start">
