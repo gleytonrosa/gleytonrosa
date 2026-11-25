@@ -112,7 +112,7 @@ const trajetoria = [
 const graduacao = [
   "Tecnólogo em Marketing",
   "Tecnólogo em Sistemas para Internet",
-  "Análise e Desenvolvimento de Sistemas  \nEngenharia de Software (em andamento)",
+  "Análise e Desenvolvimento de Sistemas",
 ];
 
 const mestrado = ["Mestrado em Engenharia da Computação e Sistemas Inteligentes (em andamento)"];
