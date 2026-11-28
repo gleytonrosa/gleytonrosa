@@ -148,7 +148,10 @@ const posGraduacao = [
       "Pós-graduação em User Experience (UX) e User Interface (UI)",
       "Pós-graduação em Cybersecurity — Detecção de Ameaças e Proteção de Sistemas de Informática e Comunicações",
       "Pós-graduação em Computação em Nuvem (Cloud Computing)",
-      "Pós-graduação em Automação industrial ",
+      "Pós-graduação em Automação industrial",
+      "Pós-graduação em Banco de Dados",
+      "Pós-graduação em DevOps",
+      "Pós-graduação em Engenharia de Redes e Segurança de Dados",
     ],
   },
 ];
