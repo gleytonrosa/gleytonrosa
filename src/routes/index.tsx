@@ -137,6 +137,7 @@ const posGraduacao = [
       "MBA em Telecomunicações com Ênfase em Redes, Sistemas de Informação e Internet das Coisas- iot",
       "MBA em Neuromarketing",
       "MBA em Gerenciamento de Processos de Negócio — BPM",
+      "MBA em Marketing, Branding e Growth",
     ],
   },
   {
